@@ -63,15 +63,15 @@ const Footer = () => {
             </div>
           </div>
           <div className={styles.socialItem}>
-            <a className={styles.link} href="https://instagram.com/allinbarbers">
+            <a className={styles.link} href="https://instagram.com/allinstudio.hair/">
               <img src="/footer/instagram.svg" alt="phone" />
             </a>
           </div>
-          <div className={styles.socialItem}>
-            <a className={styles.link} href="https://facebook.com">
-              <img src="/footer/facebook.svg" alt="phone" />
-            </a>
-          </div>
+          {/*<div className={styles.socialItem}>*/}
+          {/*  <a className={styles.link} href="https://facebook.com">*/}
+          {/*    <img src="/footer/facebook.svg" alt="phone" />*/}
+          {/*  </a>*/}
+          {/*</div>*/}
         </div>
       </div>
     </footer>

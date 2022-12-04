@@ -60,7 +60,7 @@ const Header = () => {
           setActiveTab('order'),
           dispatch(setPartVisibility(false)),
           setTimeout(() => dispatch(setMainTab('order')), 300)
-        ] : () => {}} ref={logoEl} src="/header/all-in-logo.svg" alt="logo" />}
+        ] : () => {}} ref={logoEl} src="/header/all-in-studio.png" alt="logo" />}
 
         <div className={styles.headerNavigation}>
           {slicedHeaderContent.map((item, id) => (

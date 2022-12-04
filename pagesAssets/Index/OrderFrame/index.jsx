@@ -10,7 +10,7 @@ import useScreen from '../../../customHooks/useScreen';
 import styles from './styles.module.css';
 import Button from '../../../components/MainButton';
 
-const iframeUrl = 'https://n451950.yclients.com/company:428417';
+const iframeUrl = 'https://b451950.yclients.com/company/428417/select-master?o=';
 const iosAppLink = 'https://apps.apple.com/ru/app/all-in-barbers-and-more/id1557949058';
 const googlePlayLink = 'https://play.google.com/store/apps/details?id=com.yclients.mobile.s428417&hl=ru&gl=US';
 
@@ -42,10 +42,10 @@ const OrderFrame = () => {
         style={{ maxWidth: `${logoPosition || firstHeaderItemPos}px` }}
       >
         <img
-          src="/gallery.png"
+          src="/winter-gallery.png"
           className={styles.gallery}
           alt="gallery"
-          srcSet="/gallery.png 2x"
+          srcSet="/winter-gallery.png 2x"
         />
       </div>
       <div className={cn(styles.rightPart, {
@@ -53,7 +53,7 @@ const OrderFrame = () => {
       })}
       >
         <div className={styles.slogan}>
-          <div className={styles.accent}>ALL IN *spring summer season</div>
+          <div className={styles.accent}>ALL IN *winter season</div>
         </div>
         <div className={styles.heading}>
           <h1 className={styles.mainTitle}>ЗА ВАШУ ГОЛОВУ МЫ ОТВЕЧАЕМ СВОЕЙ</h1>
@@ -67,12 +67,12 @@ const OrderFrame = () => {
           </Button>
           <a href={iosAppLink} target="_blank" rel="noreferrer">
             <Button className={styles.storeLink} isStore>
-              <img className={styles.storeImg} src="store/apple.svg" alt="app-store-svg" />
+              <img className={styles.storeImg} src="/store/apple.svg" alt="app-store-svg" />
             </Button>
           </a>
           <a href={googlePlayLink} target="_blank" rel="noreferrer">
             <Button className={styles.storeLink} isStore>
-              <img className={styles.storeImg} src="store/google.svg" alt="app-store-svg" />
+              <img className={styles.storeImg} src="/store/google.svg" alt="app-store-svg" />
             </Button>
           </a>
         </div>
@@ -81,7 +81,7 @@ const OrderFrame = () => {
           <span className={styles.text}>Пн-Вс, 10:00-22:00</span>
           <span className={styles.text}>Итальянская ул., 16, 19 A</span>
           <div className={styles.logoBox}>
-            <img src="/header/logo-small.svg" alt="main-logo" />
+            <img src="/header/all-in-studio.png" alt="main-logo" />
           </div>
         </div>
         )}
